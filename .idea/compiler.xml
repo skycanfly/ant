@@ -11,5 +11,11 @@
         <module name="flink-dataSources" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ant" target="1.8" />
+      <module name="flink-dataSinks" target="1.8" />
+      <module name="flink-dataSources" target="1.8" />
+      <module name="flink-dataTransform" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
