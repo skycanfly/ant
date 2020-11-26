@@ -26,7 +26,6 @@ public class kafkaExample {
 
     static class Serialion implements KafkaSerializationSchema<String> {
         private String topic;
-
         public Serialion(String topic) {
             super();
             this.topic = topic;
