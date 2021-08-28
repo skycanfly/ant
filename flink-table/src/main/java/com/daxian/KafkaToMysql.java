@@ -27,18 +27,7 @@ import org.apache.flink.table.descriptors.Schema;
  */
 public class KafkaToMysql {
     public static void main(String[] args) throws Exception {
-//        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-//        env.enableCheckpointing(1000, CheckpointingMode.EXACTLY_ONCE);
-//        Properties properties = new Properties();
-//        properties.setProperty("bootstrap.servers", "localhost:9092");
-//        properties.setProperty("group.id", "test");
-//        SingleOutputStreamOperator<String> std = env.addSource(
-//                new FlinkKafkaConsumer<String>("test",
-//                        new SimpleStringSchema(),
-//                        properties))
-//                .name("addSource");
-//        std.print();
-//        env.execute();
+
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         StreamTableEnvironment tenv = StreamTableEnvironment.create(env);
