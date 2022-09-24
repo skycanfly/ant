@@ -11,6 +11,8 @@
     <modules>
         <module>flink-stream</module>
         <module>flink-table</module>
+        <module>flink-realtime</module>
+        <module>flink-projects</module>
     </modules>
 
 
@@ -84,7 +86,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.21</version>
+            <version>5.1.48</version>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
